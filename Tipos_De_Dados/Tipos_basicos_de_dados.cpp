@@ -7,7 +7,7 @@ using namespace std;
 int main(int argc, char** argv[]) {
     // Função principal do programa. argc é o número de argumentos, argv é o vetor de argumentos.
 
-    auto myAuto = 5;
+    auto myAuto = 2.88f + 1.12f; // Variável do tipo auto (deduzido como float)
     int myInt = 42; // Variável do tipo inteiro
     float myFloat = 3.14f; // Variável do tipo float (ponto flutuante de precisão simples)
     double myDouble = 2.71828; // Variável do tipo double (ponto flutuante de precisão dupla)
@@ -17,7 +17,7 @@ int main(int argc, char** argv[]) {
     bool myBool = true;  // Variável booleana (verdadeiro ou falso)
 
 
-    std::cout << "Auto: " << myAuto << std::endl; // Exibe o valor da variável inteira
+    std::cout << "Auto: " << myAuto << std::endl; // Exibe o valor da variável auto
     std::cout << "Integer: " << myInt << std::endl; // Exibe o valor da variável inteira
     std::cout << "Float: " << myFloat << std::endl; // Exibe o valor da variável float
     std::cout << "Double: " << myDouble << std::endl; // Exibe o valor da variável double
